@@ -1,63 +1,47 @@
 package leetcode
 
 import (
-	"fmt"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
-type question1 struct {
-	para1
-	ans1
-}
-
-// para 是参数
-// one 代表第一个参数
-type para1 struct {
+type question struct {
 	nums   []int
 	target int
+	answer []int
 }
 
-// ans 是答案
-// one 代表第一个答案
-type ans1 struct {
-	one []int
-}
-
-func Test_Problem1(t *testing.T) {
-
-	qs := []question1{
+func TestTwoSum(t *testing.T) {
+	list := []question{
 		{
-			para1{[]int{3, 2, 4}, 6},
-			ans1{[]int{1, 2}},
+			nums:   []int{3, 2, 4},
+			target: 6,
+			answer: []int{1, 2},
 		},
-
 		{
-			para1{[]int{3, 2, 4}, 5},
-			ans1{[]int{0, 1}},
+			nums:   []int{3, 2, 4},
+			target: 5,
+			answer: []int{0, 1},
 		},
-
 		{
-			para1{[]int{0, 8, 7, 3, 3, 4, 2}, 11},
-			ans1{[]int{1, 3}},
+			nums:   []int{0, 8, 7, 3, 3, 4, 2},
+			target: 11,
+			answer: []int{1, 3},
 		},
-
 		{
-			para1{[]int{0, 1}, 1},
-			ans1{[]int{0, 1}},
+			nums:   []int{0, 1},
+			target: 1,
+			answer: []int{0, 1},
 		},
-
 		{
-			para1{[]int{0, 3}, 5},
-			ans1{[]int{}},
+			nums:   []int{0, 3},
+			target: 5,
+			answer: nil,
 		},
-		// 如需多个测试，可以复制上方元素。
 	}
 
-	fmt.Printf("------------------------Leetcode Problem 1------------------------\n")
-
-	for _, q := range qs {
-		_, p := q.ans1, q.para1
-		fmt.Printf("【input】:%v       【output】:%v\n", p, twoSum(p.nums, p.target))
+	for _, question := range list {
+		assert.Equal(t, question.answer, twoSum(question.nums, question.target))
 	}
-	fmt.Printf("\n\n\n")
 }
