@@ -24,5 +24,6 @@ func TestSort(t *testing.T) {
 	}
 	for _, problem := range problems {
 		assert.Equal(t, problem.answer, SelectSort(problem.question))
+		assert.Equal(t, problem.answer, BubbleSort(problem.question))
 	}
 }
