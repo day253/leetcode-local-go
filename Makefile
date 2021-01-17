@@ -28,7 +28,7 @@ test-case: set-env
 package: package-bin
 
 package-bin:
-	mkdir -p $(OUTDIR)
+	# mkdir -p $(OUTDIR)
 
 clean:
 	rm -rf $(OUTDIR)
