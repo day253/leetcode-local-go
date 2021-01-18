@@ -4,7 +4,7 @@ package sort
 // https://en.wikipedia.org/wiki/Quicksort
 // https://medium.com/@rgalus/sorting-algorithms-quick-sort-implementation-in-go-9ebfd91fe95f
 func QuickSort(arr []int) []int {
-	sort(arr, 0, len(arr))
+	sort(arr, 0, len(arr)-1)
 	return arr
 }
 
