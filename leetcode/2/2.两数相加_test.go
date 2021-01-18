@@ -1,17 +1,12 @@
 package leetcode
 
-import (
-	"testing"
-
-	"github.com/stretchr/testify/assert"
-)
-
 type question struct {
 	nums   []int
 	target int
 	answer []int
 }
 
+/*
 func TestAddTwoNumbers(t *testing.T) {
 	list := []question{
 		{
@@ -45,3 +40,4 @@ func TestAddTwoNumbers(t *testing.T) {
 		assert.Equal(t, question.answer, twoSum(question.nums, question.target))
 	}
 }
+*/
