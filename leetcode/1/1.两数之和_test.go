@@ -6,14 +6,14 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-type question1 struct {
+type question struct {
 	nums   []int
 	target int
 	answer []int
 }
 
 func TestTwoSum(t *testing.T) {
-	list := []question1{
+	list := []question{
 		{
 			nums:   []int{3, 2, 4},
 			target: 6,
