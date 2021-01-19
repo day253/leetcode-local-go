@@ -4,6 +4,12 @@ import "fmt"
 
 // BubbleSort etc
 // https://golangbyexample.com/go-bubble-sort/
+// best n
+// average n^2
+// worst n^2
+// memory 1
+// stable yes
+// method exchanging
 func BubbleSort(arr []int) {
 	len := len(arr)
 	fmt.Println("[ - ] ", arr)
