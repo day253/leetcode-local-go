@@ -8,6 +8,7 @@ import (
 
 func TestSelectSort(t *testing.T) {
 	for _, problem := range problems() {
-		assert.Equal(t, problem.answer, SelectSort(problem.question))
+		SelectSort(problem.question)
+		assert.Equal(t, problem.answer, problem.question)
 	}
 }

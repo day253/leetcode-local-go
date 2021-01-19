@@ -8,6 +8,7 @@ import (
 
 func TestBubbleSort(t *testing.T) {
 	for _, problem := range problems() {
-		assert.Equal(t, problem.answer, BubbleSort(problem.question))
+		BubbleSort(problem.question)
+		assert.Equal(t, problem.answer, problem.question)
 	}
 }

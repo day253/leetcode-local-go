@@ -8,6 +8,7 @@ import (
 
 func TestQuickSort(t *testing.T) {
 	for _, problem := range problems() {
-		assert.Equal(t, problem.answer, QuickSort(problem.question))
+		QuickSort(problem.question)
+		assert.Equal(t, problem.answer, problem.question)
 	}
 }
