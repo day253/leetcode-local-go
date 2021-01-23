@@ -21,14 +21,15 @@ func IntArray2List(arr []int) *ListNode {
 	if len(arr) == 0 {
 		return nil
 	}
-	l := &ListNode{}
+	head := &ListNode{}
+	l := head
 	for _, item := range arr {
 		l.Next = &ListNode{
 			Val: item,
 		}
 		l = l.Next
 	}
-	return l.Next
+	return head.Next
 }
 
 // MergeListRecursive return head of two merge list
@@ -65,5 +66,5 @@ func MergeListIterate(l *ListNode, r *ListNode) *ListNode {
 	} else {
 		prev.Next = r
 	}
-	return prev.Next
+	return head.Next
 }
