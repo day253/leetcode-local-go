@@ -3,33 +3,33 @@ package sort
 // QuickSort golang implementation of quick sort
 // https://en.wikipedia.org/wiki/Quicksort
 // https://medium.com/@rgalus/sorting-algorithms-quick-sort-implementation-in-go-9ebfd91fe95f
+// https://blog.csdn.net/qq_28584889/article/details/88136498
 func QuickSort(arr []int) []int {
-	sort(arr, 0, len(arr)-1)
+	quickSort(arr, 0, len(arr)-1)
 	return arr
 }
 
-func sort(arr []int, start, end int) {
-	if (end - start) < 1 {
+func quickSort(arr []int, start, end int) {
+	if start >= end {
 		return
 	}
 
-	pivot := arr[end]
-	splitIndex := start
-
-	for i := start; i < end; i++ {
-		if arr[i] < pivot {
-			temp := arr[splitIndex]
-
-			arr[splitIndex] = arr[i]
-			arr[i] = temp
-
-			splitIndex++
+	base := arr[start]
+	i, j := start, end
+	for i < j {
+		for arr[j] >= base && i < j {
+			j--
+		}
+		for arr[i] <= base && i < j {
+			i++
+		}
+		if i < j {
+			arr[i], arr[j] = arr[j], arr[i]
 		}
 	}
 
-	arr[end] = arr[splitIndex]
-	arr[splitIndex] = pivot
+	arr[start], arr[i] = arr[i], base
 
-	sort(arr, start, splitIndex-1)
-	sort(arr, splitIndex+1, end)
+	quickSort(arr, start, i-1)
+	quickSort(arr, i+1, end)
 }
