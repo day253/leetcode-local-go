@@ -32,6 +32,36 @@ func IntArray2List(arr []int) *ListNode {
 	return head.Next
 }
 
+// MergeListFunction define MergeListFunction
+type MergeListFunction func(*ListNode, *ListNode) *ListNode
+
+// MergeList merge array of lists
+// l i arr
+// 7   0 1 2 3 4 5 6
+// 1 2 |_| |_| |_| |
+// 2 4 |___|   |___|
+// 4 8 |_______|
+// 8   |
+func MergeList(listArr []*ListNode, fn MergeListFunction) *ListNode {
+	len := len(listArr)
+
+	if len == 0 {
+		return nil
+	}
+
+	step := 1
+	for step <= len {
+		for i := 0; i < len; i += step * 2 {
+			if i+step < len {
+				listArr[i] = fn(listArr[i], listArr[i+step])
+			}
+		}
+		step *= 2
+	}
+
+	return listArr[0]
+}
+
 // MergeListRecursive return head of two merge list
 func MergeListRecursive(l *ListNode, r *ListNode) *ListNode {
 	if l == nil {

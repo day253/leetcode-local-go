@@ -17,8 +17,9 @@ func problems() []sortProblems {
 			question: [][]int{
 				{1, 4, 5},
 				{1, 3, 4},
+				{7, 9},
 			},
-			answer: []int{1, 1, 3, 4, 4, 5},
+			answer: []int{1, 1, 3, 4, 4, 5, 7, 9},
 		},
 	}
 }
@@ -34,7 +35,7 @@ func TestMergeListRecursive(t *testing.T) {
 		for _, arr := range problem.question {
 			linkListArr = append(linkListArr, IntArray2List(arr))
 		}
-		assert.Equal(t, problem.answer, List2IntArray(MergeListRecursive(linkListArr[0], linkListArr[1])))
+		assert.Equal(t, problem.answer, List2IntArray(MergeList(linkListArr, MergeListRecursive)))
 	}
 }
 
@@ -44,6 +45,6 @@ func TestMergeListIterate(t *testing.T) {
 		for _, arr := range problem.question {
 			linkListArr = append(linkListArr, IntArray2List(arr))
 		}
-		assert.Equal(t, problem.answer, List2IntArray(MergeListIterate(linkListArr[0], linkListArr[1])))
+		assert.Equal(t, problem.answer, List2IntArray(MergeList(linkListArr, MergeListIterate)))
 	}
 }
