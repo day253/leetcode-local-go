@@ -60,12 +60,13 @@ package leetcode
 
 // @lc code=start
 func twoSum(nums []int, target int) []int {
-	m := make(map[int]int)
-	for k, v := range nums {
-		if idx, ok := m[target-v]; ok {
-			return []int{idx, k}
+	result := make(map[int]int)
+	for index, num := range nums {
+		value, ok := result[target-num]
+		if ok {
+			return []int{value, index}
 		}
-		m[v] = k
+		result[num] = index
 	}
 	return nil
 }
