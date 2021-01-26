@@ -12,21 +12,25 @@ type problem struct {
 }
 
 func TestLengthOfLongestSubstring(t *testing.T) {
-	for _, item := range []problem{
+	list := []problem{
 		{
 			Q: "abcabcbb",
 			A: 3,
-		}, {
+		},
+		{
 			Q: "bbbbb",
 			A: 1,
-		}, {
+		},
+		{
 			Q: "pwwkew",
 			A: 3,
-		}, {
+		},
+		{
 			Q: "",
 			A: 0,
 		},
-	} {
+	}
+	for _, item := range list {
 		assert.Equal(t, item.A, lengthOfLongestSubstring(item.Q))
 	}
 }
