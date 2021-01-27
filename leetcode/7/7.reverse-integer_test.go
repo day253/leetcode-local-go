@@ -37,6 +37,10 @@ func TestReverse(t *testing.T) {
 			Q: -2147483648,
 			A: 0,
 		},
+		{
+			Q: -147483412,
+			A: -2143847412,
+		},
 	}
 	for _, item := range list {
 		assert.Equal(t, item.A, reverse(item.Q))
