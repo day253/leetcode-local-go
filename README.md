@@ -64,7 +64,7 @@ func twoSum(nums []int, target int) []int {
   * [Trie](docs/trie.md)
   * [Design](docs/design.md)
 * [Top 250](docs/top250.md)
-* [Data Science](doc/data_science.md)
+* [Data Science](docs/data_science.md)
 
 ## 参考文档
 
