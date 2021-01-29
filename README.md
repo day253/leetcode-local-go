@@ -11,7 +11,7 @@ LeetCode Golang 本地调试环境
 配置leetcode插件，这样在sidebar点击题目会自动下载src目录
 
 ```
-"leetcode.workspaceFolder": "/PathTo/leetcode-local-go/leetcode",
+"leetcode.workspaceFolder": "/home/codespace/workspace/leetcode-local-go",
 "leetcode.defaultLanguage": "golang"
 ```
 
@@ -41,6 +41,31 @@ func twoSum(nums []int, target int) []int {
 
 `>LeetCode: Submit to LeetCode`提交答案到leetcode，如果不通过，添加到本地case直到测试通过再次提交。
 
+## Rroblem Rank
+
+* Top 400:
+  * [Array](docs/array.md)
+  * [String](docs/string.md)
+  * [Math](docs/math.md)
+  * [Tree](docs/tree.md)
+  * [Backtracking](docs/back_tracking.md)
+  * [Dynamic Programming](docs/dynamic_programming.md)
+  * [LinkedList](docs/linked_list.md)
+  * [Binary Search](docs/binary_search.md)
+  * [Matrix](docs/matrix.md)
+  * [Binary Search](docs/binary_search.md)
+  * [DFS & BFS](docs/dfs_bfs.md)
+  * [Stack & PriorityQueue](docs/stack_priorityqueue.md)
+  * [Bit Manipulation](docs/bit_manipulation.md)
+  * [Topological Sort](docs/topological_sort.md)
+  * [Random](docs/random.md)
+  * [Graph](docs/graph.md)
+  * [Union Find](docs/union_find.md)
+  * [Trie](docs/trie.md)
+  * [Design](docs/design.md)
+* [Top 250](docs/top250.md)
+* [Data Science](doc/data_science.md)
+
 ## 参考文档
 
 [Leetcode插件](https://marketplace.visualstudio.com/items?itemName=leetcode.vscode-leetcode)
@@ -48,3 +73,5 @@ func twoSum(nums []int, target int) []int {
 [Leetcode 分类顺序表](https://cspiration.com/leetcodeClassification)
 
 [Leetcode 提交历史](https://leetcode.com/submissions)
+
+[Leetcode-cn 提交历史](https://leetcode-cn.com/progress/)
