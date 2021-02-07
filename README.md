@@ -1,5 +1,7 @@
 # leetcode-local-go
 
+[![Build Status](https://travis-ci.com/day253/leetcode-local-go.svg?branch=master)](https://travis-ci.com/day253/leetcode-local-go)
+
 LeetCode Golang 本地调试环境
 
 ## 使用步骤
