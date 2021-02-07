@@ -3,4 +3,4 @@ language: go
 go:
   - "1.15"
 
-script: go get github.com/day253/leetcode-local-go && go test ./... -race
+script: go test ./... -race -v
