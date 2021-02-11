@@ -1,12 +1,17 @@
 # Graph
 
+## 基础
+
 | 题号 | 题目链接 | 备注 |
 | -: | :- | :- |
-| 基础 | | |
 | 133 | Clone Graph | |
 | 399 | Evaluate Division | |
 | 310 | Minimum Height Trees | |
-| 图形学 | | |
+
+## 图形学
+
+| 题号 | 题目链接 | 备注 |
+| -: | :- | :- |
 | 149 | Max Points on a Line | |
 | 335 | Self Crossing | 很少考 |
 | 356 | Line Reflection | 很少考 |

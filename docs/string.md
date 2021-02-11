@@ -1,8 +1,9 @@
 # String
 
+## 基础
+
 | 题号 | 题目链接 | 备注 |
 | -: | :- | :- |
-| 基础 | | |
 | 28 | Implement strStr() | |
 | 14 | Longest Common Prefix | |
 | 58 | Length of Last Word | |
@@ -35,19 +36,31 @@
 | 246 | Strobogrammatic Number | |
 | 247 | Strobogrammatic Number II | |
 | 248 | Strobogrammatic Number III | 很少考 |
-| 提高 | | |
+
+## 提高
+
+| 题号 | 题目链接 | 备注 |
+| -: | :- | :- |
 | 157 | Read N Characters Given Read4 | |
 | 158 | Read N Characters Given Read4 II - Call multiple times | |
 | 68 | Text Justification | |
 | 65 | Valid Number | |
-| Substring | | |
+
+## Substring
+
+| 题号 | 题目链接 | 备注 |
+| -: | :- | :- |
 | 76 | Minimum Window Substring | Sliding Window | |
 | 30 | Substring with Concatenation of All Words | Sliding Window | |
 | 3 | Longest Substring Without Repeating Characters | Sliding Window | |
 | 340 | Longest Substring with At Most K Distinct Characters | Sliding Window | |
 | 395 | Longest Substring with At Least K Repeating Characters | Sliding Window | |
 | 159 | Longest Substring with At Most Two Distinct Characters | Sliding Window | |
-| Palindrome | | |
+
+## Palindrome
+
+| 题号 | 题目链接 | 备注 |
+| -: | :- | :- |
 | 125 | Valid Palindrome | |
 | 266 | Palindrome Permutation | |
 | 5 | Longest Palindromic Substring | |
@@ -57,13 +70,21 @@
 | 131 | Palindrome Partitioning | |
 | 132 | Palindrome Partitioning II | |
 | 267 | Palindrome Permutation II | |
-| Parentheses | | |
+
+## Parentheses
+
+| 题号 | 题目链接 | 备注 |
+| -: | :- | :- |
 | 20 | Valid Parentheses | |
 | 22 | Generate Parentheses | |
 | 32 | Longest Valid Parentheses | |
 | 241 | Different Ways to Add Parentheses | |
 | 301 | Remove Invalid Parentheses | |
-| Subsequence | | |
+
+## Subsequence
+
+| 题号 | 题目链接 | 备注 |
+| -: | :- | :- |
 | 392 | Is Subsequence | |
 | 115 | Distinct Subsequences | |
 | 187 | Repeated DNA Sequences | 很少考 |

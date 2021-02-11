@@ -1,8 +1,9 @@
 # Array
 
+## 基础
+
 | 题号 | 题目链接 | 备注 |
 | -: | :- | :- |
-| 基础 | |
 | 27 | Remove Element | |
 | 26 | Remove Duplicates from Sorted Array | |
 | 80 | Remove Duplicates from Sorted Array II | |
@@ -38,7 +39,11 @@
 | 287 | Find the Duplicate Number | |
 | 135 | Candy | 很少考 |
 | 330 | Patching Array | 很少考 |
-| 提高 | |
+
+## 提高
+
+| 题号 | 题目链接 | 备注 |
+| -: | :- | :- |
 | 4 | Median of Two Sorted Arrays | 很少考 |
 | 321 | Create Maximum Number | 很少考 |
 | 327 | Count of Range Sum | |
@@ -49,7 +54,11 @@
 | 252 | Meeting Rooms | |
 | 253 | Meeting Rooms II | |
 | 352 | Data Stream as Disjoint Intervals | TreeMap |
-| Counter | |
+
+## Counter
+
+| 题号 | 题目链接 | 备注 |
+| -: | :- | :- |
 | 239 | Sliding Window Maximum | |
 | 295 | Find Median from Data Stream | |
 | 53 | Maximum Subarray | |
@@ -59,7 +68,11 @@
 | 152 | Maximum Product Subarray | |
 | 228 | Summary Ranges | |
 | 163 | Missing Ranges | |
-| Counter | |
+
+## Counter
+
+| 题号 | 题目链接 | 备注 |
+| -: | :- | :- |
 | 88 | Merge Sorted Array | |
 | 75 | Sort Colors | |
 | 283 | Move Zeroes | |

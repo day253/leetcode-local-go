@@ -1,8 +1,9 @@
 # Math
 
+## 基础
+
 | 题号 | 题目链接 | 备注 |
 | -: | :- | :- |
-| 基础 | | |
 | 7 | Reverse Integer | |
 | 165 | Compare Version Numbers | |
 | 66 | Plus One | |
@@ -23,7 +24,11 @@
 | 16 | 3Sum Closest | 很少考 |
 | 259 | 3Sum Smaller | 很少考 |
 | 18 | 4Sum | |
-| 很少考 | | |
+
+## 很少考
+
+| 题号 | 题目链接 | 备注 |
+| -: | :- | :- |
 | 231 | Power of Two | |
 | 326 | Power of Three | |
 | 342 | Power of Four | |

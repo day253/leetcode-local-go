@@ -5,7 +5,11 @@
 | 389 | Find the Difference | |
 | 136 | Single Number | |
 | 318 | Maximum Product of Word Lengths | |
-| 很少考 | |
+
+## 很少考
+
+| 题号 | 题目链接 | 备注 |
+| -: | :- | :- |
 | 393 | UTF-8 Validation | |
 | 201 | Bitwise AND of Numbers Range | |
 | 371 | Sum of Two Integers emove Element | |

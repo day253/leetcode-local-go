@@ -1,8 +1,9 @@
 # Dynamic Programming
 
+## 一维
+
 | 题号 | 题目链接 | 备注 |
 | -: | :- | :- |
-| 一维 | |
 | 70 | Climbing Stairs | |
 | 62 | Unique Paths | |
 | 63 | Unique Paths II | |
@@ -12,7 +13,11 @@
 | 375 | Guess Number Higher or Lower II | |
 | 312 | Burst Balloons | |
 | 322 | Coin Change | |
-| 二维 | |
+
+## 二维
+
+| 题号 | 题目链接 | 备注 |
+| -: | :- | :- |
 | 256 | Paint House | |
 | 265 | Paint House II | |
 | 64 | Minimum Path Sum | |
@@ -22,7 +27,11 @@
 | 221 | Maximal Square | |
 | 85 | Maximal Rectangle | |
 | 363 | Max Sum of Rectangle No Larger Than K | TreeSet |
-| 化简 | |
+
+## 化简
+
+| 题号 | 题目链接 | 备注 |
+| -: | :- | :- |
 | 198 | House Robber | |
 | 213 | House Robber II | |
 | 276 | Paint Fence | |

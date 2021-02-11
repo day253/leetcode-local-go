@@ -1,8 +1,9 @@
 # LinkedList
 
+## 基础
+
 | 题号 | 题目链接 | 备注 |
 | -: | :- | :- |
-| 基础 | | |
 | 206 | Reverse Linked List | |
 | 141 | Linked List Cycle | |
 | 24 | Swap Nodes in Pairs | |
@@ -17,7 +18,11 @@
 | 2 | Add Two Numbers | |
 | 160 | Intersection of Two Linked Lists | |
 | 21 | Merge Two Sorted Lists | |
-| 提高 | | |
+
+## 提高
+
+| 题号 | 题目链接 | 备注 |
+| -: | :- | :- |
 | 234 | Palindrome Linked List | |
 | 143 | Reorder List | |
 | 142 | Linked List Cycle II | |
