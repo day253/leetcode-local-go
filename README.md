@@ -70,7 +70,7 @@ func twoSum(nums []int, target int) []int {
 
 ## 参考文档
 
-[Leetcode插件](https://marketplace.visualstudio.com/items?itemName=leetcode.vscode-leetcode)
+[Leetcode 插件](https://marketplace.visualstudio.com/items?itemName=leetcode.vscode-leetcode)
 
 [Leetcode 分类顺序表](https://cspiration.com/leetcodeClassification)
 
