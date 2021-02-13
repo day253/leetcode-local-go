@@ -17,7 +17,11 @@
 | 367 | Valid Perfect Square | |
 | 365 | Water and Jug Problem | |
 | 204 | Count Primes | |
-| Sum | | |
+
+## Sum
+
+| 题号 | 题目链接 | 备注 |
+| -: | :- | :- |
 | 1 | Two Sum | |
 | 167 | Two Sum II - Input array is sorted | |
 | 15 | 3Sum | |
