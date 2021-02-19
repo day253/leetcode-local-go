@@ -1,6 +1,11 @@
-# leetcode-local-go
+# leetcode-local-go [![GoDoc][doc-img]][doc] [![Build Status][build-img]][build] [![Coverage Status][cov-img]][cov]
 
-[![Build Status](https://travis-ci.com/day253/leetcode-local-go.svg?branch=master)](https://travis-ci.com/day253/leetcode-local-go)
+[build-img]: https://travis-ci.com/day253/leetcode-local-go.svg?branch=master
+[build]: https://travis-ci.com/day253/leetcode-local-go
+[cov-img]: https://codecov.io/gh/day253/leetcode-local-go/branch/master/graph/badge.svg?token=zhLeUjjrm2
+[cov]: https://codecov.io/gh/day253/leetcode-local-go
+[doc-img]: https://pkg.go.dev/badge/day253/leetcode-local-go
+[doc]: https://pkg.go.dev/day253/leetcode-local-go
 
 LeetCode Golang 本地调试环境
 
